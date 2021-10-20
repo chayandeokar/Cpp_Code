@@ -1,8 +1,6 @@
 # cpp_code
 
 we are running our coding in redhat 8 linux
-
-
 So for this we have to install G++
 
 
