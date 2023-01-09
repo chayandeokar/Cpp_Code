@@ -50,3 +50,44 @@ int main()
     
     cout << lwsearch(data , search) << endl;
 }
+
+
+
+
+
+
+
+/******************************************************************************
+
+                             Linear search Algorithm
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+int lwsearch(int data[] , int searchTerm ,int length){
+    for (int i=0; i<=length-1 ;i++){
+         if (data[i] == searchTerm) {
+            return i;
+        }
+        
+    }
+    return -1;
+}
+
+int main()
+{
+    int data[] = {1,2,3,4,5,6,7};
+    int searchTerm = 7;
+    int length = sizeof(data) / sizeof(int);
+    cout << lwsearch(data , searchTerm, length ) << endl;
+    if (rcode == 0){
+        cout<<"we found ..." << endl;
+    }
+    else{
+        cout<<"not found ...."<< endl;
+    }
+    
+}
+
