@@ -24,3 +24,19 @@ As we write In now we have complie and run the code
 So now your code will run and we can our output 
 
 
+# In C++ 
+
+
+1) cin >> y  --> to take inputs
+
+
+2) cout << y  --> to show output 
+
+
+# In C
+
+
+1) scanf --> to take inputs
+
+
+2)printf --> to show output 
