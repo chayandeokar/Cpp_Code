@@ -20,3 +20,28 @@ int main() {
     printf("%d" , *p);
   
 } 
+
+
+*****************************************************
+
+int main() { 
+    //stack memory 
+    // complie time : 4 byte is confirmed
+    int x = 20;
+    printf("%d\n" , x);
+    x = NULL; //to dealocate the memory
+    printf("%d" , x);
+  
+} 
+
+*****************************************************
+
+int main() { 
+    // C++ heap memory
+    int x = 20;
+    p = new int ;
+    delete p;
+} 
+
+*****************************************************
+
