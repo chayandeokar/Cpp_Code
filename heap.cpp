@@ -45,3 +45,12 @@ int main() {
 
 *****************************************************
 
+int main() { 
+    
+   //at complie time
+   // alloacation at runtime
+   //reversed memory
+   int b[5] = {};
+   b[2] = 20;
+   printf("%d" , b[2]);
+} 
